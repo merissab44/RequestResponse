@@ -23,7 +23,7 @@ def favorite_dessert(users_desserts):
 
 @app.route('/madlibs/<adjective>/<noun>')
 def madlib(adjective,noun):
-    return f" She was {adjective} across {noun}"
+    return f" They were {adjective} across {noun}"
 
 @app.route('/multiply/<number1>/<number2>')
 def muliplication(number1, number2):
